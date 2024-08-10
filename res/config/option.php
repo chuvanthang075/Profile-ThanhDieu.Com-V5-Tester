@@ -1,50 +1,50 @@
 <?php
 /**
- * @package thanhdieuv5 (tester)
- * @author  Vương Thanh Diệu <www.facebok.com/wusthanhdieu>
+ * @package Phan Ní (Test)
+ * @author  Chu Văn Thắng <www.facebok.com/23451042/>
  */
-interface ThanhDieuConfigInterface {
+interface VanThangConfigInterface {
     public function CommonMethod();
 }
-class ThanhDieuHeader implements ThanhDieuConfigInterface {
-    public $title = "Vương Thanh Diệu | Resources V5";
-    public $description = "Hi my name is ThanhDieu / A freelance / web developer / vexer";
-    public $keywords = "thanhdieu,web thanh dieu,vuong thanh dieu,thanhdieutv,wsteam,wusteam,thanhdieu home,profile thanhdieu";
+class VanThangHeader implements VanThangConfigInterface {
+    public $title = "Chu Văn Thắng | Resources V5";
+    public $description = "Hi my name is Van Thang / A freelance / web developer / vexer";
+    public $keywords = "VanThang,web Van Thang,Chu Van Thang,Phan Ní,profile VanThang";
     public $favicon = "./res/v5/img/logo.jpg";
-    public $namesite = "THANHDIEU | HOME";
+    public $namesite = "VANTHANG | HOME";
     public $avatar = "./res/v5/img/avatar.gif";
-    public $userName = ["Hello Everybody", "My name is ThanhDieu.", "I really like website design 🌭"];
+    public $userName = ["Hello Everybody", "My name is VanThang.", "I really like website design 🌭"];
     public $trigger = "👉 Tìm hiểu tôi 😶&zwj;🌫️";
-    public $bio1 = "🤖️ Người đâm mê công nghệ số";
+    public $bio1 = "🤖️ Người đam mê công nghệ ";
     public $bio2 = "🔍 Chia sẻ và giúp đỡ nhiệt tình";
     public $bio3 = "💻 Kỹ sư phát triển front-end";
     public $bio4 = "Thích làm thần tượng tiktok 🥳";
     public $bio5 = "Ăn, ngủ, làm và chơi game 🎮";
     public $bio6 = "Kẻ khờ dại tin vào tình yêu ✨";
     public $SocialNetworks = [
-        "facebook" => "https://facebook.com/wusthanhdieu", // Thay link facebook
-        "instagram" => "https://www.instagram.com/vuongsondieu2k2", // Thay link instagram
+        "facebook" => "https://facebook.com/23451042/", // Thay link facebook
+        "instagram" => "https://www.instagram.com/", // Thay link instagram
         "tiktok" => "https://www.tiktok.com/", // Thay link tiktok
-        "telegram" => "https://t.me/thanhdieuchannel" // Thay link telegram
+        "telegram" => "https://t.me/trumstkmbbank" // Thay link telegram
     ];
-    public function CommonMethod(){date_default_timezone_set('Asia/Ho_Chi_Minh');}
+    public function CommonMethod(){date_default_timezone_set('Asia/Binh_Duong');}
 }
 
 
-class ThanhDieuLoveDays implements ThanhDieuConfigInterface {
+class VanThangLoveDays implements VanThangConfigInterface {
     public $ConfigLove = [
-        "avatar_male" => "./res/v5/img/male.jpeg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_male" => "ThanhDieu", // Thay tên của bạn
+        "avatar_male" => "https://i.ibb.co/QnC6FRt/Screenshot-2024-08-10-23-18-20-753-com-miui-gallery-edit.jpg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
+        "name_male" => "ChuVanThang", // Thay tên của bạn
         //========================================================//
-        "avatar_female" => "./res/v5/img/female.jpeg", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_female" => "Ngoc Tram", // Thay tên đối phương
+        "avatar_female" => "https://i.ibb.co/QnC6FRt/Screenshot-2024-08-10-23-18-20-753-com-miui-gallery-edit.jpg", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
+        "name_female" => "Chu Lý Triệu Anh", // Thay tên đối phương
         //========================================================//
-        "time_relashiption" => "28/03/2024" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
+        "time_relashiption" => "10/12/2007" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
         //========================================================//
     ];
     public function CommonMethod() {}
 }
-class ThanhDieuMusicList implements ThanhDieuConfigInterface {
+class ThanhDieuMusicList implements VanThangConfigInterface {
     public $songs = [
         [
             "url" => "https://files.catbox.moe/4bjjfg.mp3",
